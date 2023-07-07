@@ -1,0 +1,154 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar-container button{
+  text-align: end;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.navbar-brand p{
+ margin: 0;
+ padding: 0;
+}
+
+.inner .inner-text h2 {
+  font-family: "Pacifico", cursive;
+  color: #ec594d;
+  font-size: 70px;
+}
+
+.inner-text p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.strelka {
+  margin-top: 100px;
+}
+
+.strelka img {
+  padding: 40px 30px;
+  background-color: #ec594d1a;
+  border-radius: 50%;
+  
+}
+
+.works {
+  margin-top: 100px;
+}
+.works h1 {
+  letter-spacing: 1px;
+  font-size: 70px;
+  font-weight: 900;
+}
+
+/* step1 */
+.step1-group {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title {
+  color: #ec594d;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.step1-text {
+  margin-top: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 26px;
+}
+
+.savollar {
+  margin-top: 100px;
+}
+
+.savollar h1{
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+/* .accordion-button:not(.collapsed){
+    border: none !important;
+    background-color: #ec594d1a !important;
+}
+
+.accordion-body{
+    background-color: #ec594d1a !important;
+} */
+
+.works2{
+    margin-top: 100px;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.footer{
+    padding: 30px;
+    text-align: end;
+    margin-top: 50px;
+}
+
+
+.footer a{
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar-brand img, .navbar-brand p {
+    display: flex !important;
+  }
+
+  .inner .inner-image img{
+    display: none;  
+  }
+  
+  .step1{
+    text-align: center;
+  }
+  .step2 .group1{
+    order: 2;
+  }
+  .step2 .group2{
+    order: 1;
+  }
+   .title{
+    font-size: 36px;
+  }
+
+  .step1-text{
+    font-size: 22px;
+  }
+  .step-image {
+    margin-top: 50px;
+  }
+
+  .works h1{
+    font-size: 36px;
+  }
+
+}
